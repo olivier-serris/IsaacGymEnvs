@@ -36,12 +36,12 @@ from gym import spaces
 from isaacgym import gymapi
 from isaacgym import gymtorch
 
-from isaacgymenvs.tasks.amp.humanoid_amp_base import HumanoidAMPBase, dof_to_obs
-from isaacgymenvs.tasks.amp.utils_amp import gym_util
-from isaacgymenvs.tasks.amp.utils_amp.motion_lib import MotionLib
+from modular_rollouts.IsaacGymEnvs.isaacgymenvs.tasks.amp.humanoid_amp_base import HumanoidAMPBase, dof_to_obs
+from modular_rollouts.IsaacGymEnvs.isaacgymenvs.tasks.amp.utils_amp import gym_util
+from modular_rollouts.IsaacGymEnvs.isaacgymenvs.tasks.amp.utils_amp.motion_lib import MotionLib
 
 from isaacgym.torch_utils import *
-from isaacgymenvs.utils.torch_jit_utils import *
+from modular_rollouts.IsaacGymEnvs.isaacgymenvs.utils.torch_jit_utils import *
 
 
 NUM_AMP_OBS_PER_STEP = 13 + 52 + 28 + 12 # [root_h, root_rot, root_vel, root_ang_vel, dof_pos, dof_vel, key_body_pos]

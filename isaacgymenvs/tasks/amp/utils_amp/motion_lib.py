@@ -33,9 +33,9 @@ import yaml
 from ..poselib.poselib.skeleton.skeleton3d import SkeletonMotion
 from ..poselib.poselib.core.rotation3d import *
 from isaacgym.torch_utils import *
-from isaacgymenvs.utils.torch_jit_utils import *
+from modular_rollouts.IsaacGymEnvs.isaacgymenvs.utils.torch_jit_utils import *
 
-from isaacgymenvs.tasks.amp.humanoid_amp_base import DOF_BODY_IDS, DOF_OFFSETS
+from modular_rollouts.IsaacGymEnvs.isaacgymenvs.tasks.amp.humanoid_amp_base import DOF_BODY_IDS, DOF_OFFSETS
 
 
 class MotionLib():

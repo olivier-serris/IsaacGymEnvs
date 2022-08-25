@@ -32,7 +32,7 @@ import os
 import torch
 import xml.etree.ElementTree as ET
 
-from isaacgymenvs.utils.torch_jit_utils import *
+from modular_rollouts.IsaacGymEnvs.isaacgymenvs.utils.torch_jit_utils import *
 from .base.vec_task import VecTask
 
 from isaacgym import gymutil, gymtorch, gymapi

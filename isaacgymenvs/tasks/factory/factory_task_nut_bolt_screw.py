@@ -43,9 +43,9 @@ import torch
 
 from isaacgym import gymapi, gymtorch, torch_utils
 import isaacgymenvs.tasks.factory.factory_control as fc
-from isaacgymenvs.tasks.factory.factory_env_nut_bolt import FactoryEnvNutBolt
-from isaacgymenvs.tasks.factory.factory_schema_class_task import FactoryABCTask
-from isaacgymenvs.tasks.factory.factory_schema_config_task import FactorySchemaConfigTask
+from modular_rollouts.IsaacGymEnvs.isaacgymenvs.tasks.factory.factory_env_nut_bolt import FactoryEnvNutBolt
+from modular_rollouts.IsaacGymEnvs.isaacgymenvs.tasks.factory.factory_schema_class_task import FactoryABCTask
+from modular_rollouts.IsaacGymEnvs.isaacgymenvs.tasks.factory.factory_schema_config_task import FactorySchemaConfigTask
 
 
 class FactoryTaskNutBoltScrew(FactoryEnvNutBolt, FactoryABCTask):

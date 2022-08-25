@@ -43,10 +43,10 @@ import torch
 
 from gym import logger
 from isaacgym import gymapi, gymtorch, torch_utils
-from isaacgymenvs.tasks.base.vec_task import VecTask
+from modular_rollouts.IsaacGymEnvs.isaacgymenvs.tasks.base.vec_task import VecTask
 import isaacgymenvs.tasks.factory.factory_control as fc
-from isaacgymenvs.tasks.factory.factory_schema_class_base import FactoryABCBase
-from isaacgymenvs.tasks.factory.factory_schema_config_base import FactorySchemaConfigBase
+from modular_rollouts.IsaacGymEnvs.isaacgymenvs.tasks.factory.factory_schema_class_base import FactoryABCBase
+from modular_rollouts.IsaacGymEnvs.isaacgymenvs.tasks.factory.factory_schema_config_base import FactorySchemaConfigBase
 
 
 class FactoryBase(VecTask, FactoryABCBase):

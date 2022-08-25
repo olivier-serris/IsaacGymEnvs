@@ -38,8 +38,8 @@ from collections import OrderedDict
 
 project_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 
-from isaacgymenvs.utils.torch_jit_utils import *
-from isaacgymenvs.tasks.base.vec_task import VecTask
+from modular_rollouts.IsaacGymEnvs.isaacgymenvs.utils.torch_jit_utils import *
+from modular_rollouts.IsaacGymEnvs.isaacgymenvs.tasks.base.vec_task import VecTask
 
 from types import SimpleNamespace
 from collections import deque

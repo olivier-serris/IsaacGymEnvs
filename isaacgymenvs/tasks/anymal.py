@@ -34,7 +34,7 @@ from isaacgym import gymtorch
 from isaacgym import gymapi
 from isaacgym.torch_utils import *
 
-from isaacgymenvs.tasks.base.vec_task import VecTask
+from modular_rollouts.IsaacGymEnvs.isaacgymenvs.tasks.base.vec_task import VecTask
 
 from typing import Tuple, Dict
 

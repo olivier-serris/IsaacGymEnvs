@@ -35,7 +35,7 @@ from isaacgym import gymtorch
 from isaacgym import gymapi
 from isaacgym.torch_utils import *
 
-from isaacgymenvs.utils.torch_jit_utils import *
+from modular_rollouts.IsaacGymEnvs.isaacgymenvs.utils.torch_jit_utils import *
 from ..base.vec_task import VecTask
 
 DOF_BODY_IDS = [1, 2, 3, 4, 6, 7, 9, 10, 11, 12, 13, 14]

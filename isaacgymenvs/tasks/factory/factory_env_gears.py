@@ -39,10 +39,10 @@ import os
 import torch
 
 from isaacgym import gymapi
-from isaacgymenvs.tasks.factory.factory_base import FactoryBase
+from modular_rollouts.IsaacGymEnvs.isaacgymenvs.tasks.factory.factory_base import FactoryBase
 import isaacgymenvs.tasks.factory.factory_control as fc
-from isaacgymenvs.tasks.factory.factory_schema_class_env import FactoryABCEnv
-from isaacgymenvs.tasks.factory.factory_schema_config_env import FactorySchemaConfigEnv
+from modular_rollouts.IsaacGymEnvs.isaacgymenvs.tasks.factory.factory_schema_class_env import FactoryABCEnv
+from modular_rollouts.IsaacGymEnvs.isaacgymenvs.tasks.factory.factory_schema_config_env import FactorySchemaConfigEnv
 
 
 class FactoryEnvGears(FactoryBase, FactoryABCEnv):

@@ -41,9 +41,9 @@ import os
 import torch
 
 from isaacgym import gymapi, gymtorch
-from isaacgymenvs.tasks.factory.factory_env_insertion import FactoryEnvInsertion
-from isaacgymenvs.tasks.factory.factory_schema_class_task import FactoryABCTask
-from isaacgymenvs.tasks.factory.factory_schema_config_task import FactorySchemaConfigTask
+from modular_rollouts.IsaacGymEnvs.isaacgymenvs.tasks.factory.factory_env_insertion import FactoryEnvInsertion
+from modular_rollouts.IsaacGymEnvs.isaacgymenvs.tasks.factory.factory_schema_class_task import FactoryABCTask
+from modular_rollouts.IsaacGymEnvs.isaacgymenvs.tasks.factory.factory_schema_config_task import FactorySchemaConfigTask
 
 
 class FactoryTaskInsertion(FactoryEnvInsertion, FactoryABCTask):
